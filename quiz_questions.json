@@ -14,7 +14,7 @@
   },
   {
     "question_number": 2,
-    "question": "therefore must be documented during implementation? Note: There are 2 correct  answers to this question.  A. Business Process test B. Integration test C. String test D. Unit test",
+"question": "Based on the SAP Activate methodology, which of the following tests are formal, and therefore must be documented during implementation?",
     "options": {
       "A": "Business Process test",
       "B": "Integration test",
@@ -28,7 +28,7 @@
   },
   {
     "question_number": 3,
-    "question": "A. The ability of the input parameters to explain the target B. The ability to display the same performance level on new datasets compared to the training dataset C. The ability to produce results with a constant level of correctness D. The percentage of correct responses in the output dataset",
+    "question": "In a predictive model, what does prediction confidence measure?",
     "options": {
       "A": "The ability of the input parameters to explain the target",
       "B": "The ability to display the same performance level on new datasets compared to the training dataset",
@@ -41,7 +41,7 @@
   },
   {
     "question_number": 4,
-    "question": "There are 2 correct answers to this question.  A. Maintain restrictions B. Assign PFCG profiles to a business role C. Assign business catalogs to a business role D. Maintain catalog roles",
+    "question": "Which activities can you complete in the Maintain Business Roles SAP Fiori app?",
     "options": {
       "A": "Maintain restrictions",
       "B": "Assign PFCG profiles to a business role",
@@ -55,7 +55,7 @@
   },
   {
     "question_number": 5,
-    "question": "S/4HANA Cloud?Note: There are 2 correct answers to this question.  A. Custom business objects B. UI variants and changes C. Migration projects D. Custom business roles",
+    "question": "Which of the following can be transported using the Software Collection apps in SAP S/4HANA Cloud?",
     "options": {
       "A": "Custom business objects",
       "B": "UI variants and changes",
@@ -69,7 +69,7 @@
   },
   {
     "question_number": 6,
-    "question": "relevant for the same business context?  A. In the Custom Fields app B. In the Maintain SAP Business Technology Platform Extension app C. In the Extensibility Cockpit app D. In the Runtime Authoring mode",
+    "question": "Where do you enable a customer-specific field to be available for UIs and reports relevant for the same business context?",
     "options": {
       "A": "In the Custom Fields app",
       "B": "In the Maintain SAP Business Technology Platform Extension app",
@@ -82,7 +82,7 @@
   },
   {
     "question_number": 7,
-    "question": "There are 2 correct answers to this question.  A. Dimensions defined by the user B. Plan data defined by the user C. Versions defined by the use D. Attributes defined by the user",
+    "question": "What determines the plan layout in the Planning Apps for Sales (100) scope item?",
     "options": {
       "A": "Dimensions defined by the user",
       "B": "Plan data defined by the user",
@@ -96,7 +96,7 @@
   },
   {
     "question_number": 8,
-    "question": "are 2 correct answers to this question.    A.  Create outbound delivery    B. Confirm proof of delivery    C. Perform delivery split    D.  Create sales order",
+    "question": "Which of the following are main steps in the free of charge delivery process?",
     "options": {
       "A": "Create outbound delivery",
       "B": "Confirm proof of delivery",
@@ -110,7 +110,7 @@
   },
   {
     "question_number": 9,
-    "question": "after content activation? Note: There are 3 correct answers to this question.    A.  Delete existing organizational entities    B.  Add new organizational entities    C. Create additional product-specific configurations    D.  Edit existing product-specific configurations  E. Change the group ledger scenario",
+    "question": "In SAP Central Business Configuration, which changes are possible for the Starter System after content activation?",
     "options": {
       "A": "Delete existing organizational entities",
       "B": "Add new organizational entities",
@@ -125,35 +125,39 @@
   },
   {
     "question_number": 10,
-    "question": "Specific Configuration Phase?Note: There are 3 correct answers to this question.    A. Add blocking reasons for billing.    B. Create new scope items    C. Add new sales organizations.    D. Change approval thresholds.    E. Modify building blocks",
+    "question": "In SAP Central Business Configuration, which activities can you perform in the ProductSpecific Configuration Phase?",
     "options": {
       "A": "Add blocking reasons for billing.",
       "B": "Create new scope items",
       "C": "Add new sales organizations.",
-      "D": "Change approval thresholds.    E. Modify building blocks"
+      "D": "Change approval thresholds.",
+      "E": "Modify building blocks"
     },
     "correct_answers": [
       "A",
-      "B"
+      "B",
+      "E"
     ]
   },
   {
     "question_number": 11,
-    "question": "Notification (BDK) process? Note: There are 3 correct answers to this question.     A. Create outbound delivery    B. Create inbound delivery    C. Create billing document    D. Enter vendor invoice    E. Approve and release purchase order",
+    "question": "Which steps are part of the Sales Processing using Third-Party without Shipping Notification (BDK) process? ",
     "options": {
       "A": "Create outbound delivery",
       "B": "Create inbound delivery",
       "C": "Create billing document",
-      "D": "Enter vendor invoice    E. Approve and release purchase order"
+      "D": "Enter vendor invoice",    
+      "E": "Approve and release purchase order"
     },
     "correct_answers": [
       "C",
-      "D"
+      "D",
+      "E"
     ]
   },
   {
     "question_number": 12,
-    "question": "distribution channel to form a sales area?    A.  Division    B. Sales group    C. Sales office    D. Plant",
+    "question": "What organizational element is used with the combination of sales organization and distribution channel to form a sales area?",
     "options": {
       "A": "Division",
       "B": "Sales group",
@@ -166,7 +170,7 @@
   },
   {
     "question_number": 13,
-    "question": "SAP S/4HANA Cloud.What does the Create Credit Memo Request process step indicate?    A. Authorization to release credit note    B. Customer's intention to return the goods    C. Intention to credit the customer    D. Intention to replace the returned goods",
+    "question": "You are working on an Invoice Correction Process with Credit Memo (BKL) process in SAP S/4HANA Cloud. What does the Create Credit Memo Request process step indicate?",
     "options": {
       "A": "Authorization to release credit note",
       "B": "Customer's intention to return the goods",
@@ -179,7 +183,7 @@
   },
   {
     "question_number": 14,
-    "question": "updated?    A. Execute picking    B. Create delivery    C. Post goods issue   D. Job scheduling for billing creation",
+    "question": "You execute the Sell from Stock (BD9) process. At which process step is the billing due list updated?",
     "options": {
       "A": "Execute picking",
       "B": "Create delivery",
@@ -192,7 +196,7 @@
   },
   {
     "question_number": 15,
-    "question": "A. SAPUIS SDK    B. SAP ADK    C. SAP HANA Studio    D. SAP Cloud SDK",
+    "question": "Which tool do you use to develop your own cloud applications for SAP S/4HANA Cloud?",
     "options": {
       "A": "SAPUIS SDK",
       "B": "SAP ADK",
@@ -205,7 +209,7 @@
   },
   {
     "question_number": 16,
-    "question": "SAP Fiori app? Note: There are 2 correct answers to this question.    A.  Set the billing date and billing type before the billing    B. Check the legal control status.    C. Create separate billing document for each item on the billing due list  D. Re-determine prices at creation of the billing document.",
+    "question": "Which system behavior can you influence when you use the Create Billing Documents SAP Fiori app?",
     "options": {
       "A": "Set the billing date and billing type before the billing",
       "B": "Check the legal control status.",
@@ -219,7 +223,7 @@
   },
   {
     "question_number": 17,
-    "question": "A. Billing plan    B. Order reason  C. Return reason    D. Billing block",
+    "question": "Which information must you enter manually in the invoice correction process?",
     "options": {
       "A": "Billing plan",
       "B": "Order reason",
@@ -232,10 +236,11 @@
   },
   {
     "question_number": 18,
-    "question": "A. The percentage of the number of orders that was converted from quotations B. The percentage of the number of order items that was converted from quotation items           C. The percentage of the net value order items that was converted from quotation items.    D. The percentage of the net value of billing documents that was converted from quotations",
+    "question": "In a predictive model for sales, what does the quotation conversion rate measure?",
     "options": {
       "A": "The percentage of the number of orders that was converted from quotations",
-      "B": "The percentage of the number of order items that was converted from quotation items           C. The percentage of the net value order items that was converted from quotation items.",
+      "B": "The percentage of the number of order items that was converted from quotation items",
+      "C": "The percentage of the net value order items that was converted from quotation items.",
       "D": "The percentage of the net value of billing documents that was converted from quotations"
     },
     "correct_answers": [
@@ -244,7 +249,7 @@
   },
   {
     "question_number": 19,
-    "question": "subsequent billing document. Which of the following document item characteristics  must be identical? Note: There are 2 correct answers to this question.  A. Incoterms    B. Ship-to party    C. Billing date    D. Payer",
+    "question": "During Convergent Billing (IMC), you need to combine multiple documents in a subsequent billing document. Which of the following document item characteristics must be identical?",
     "options": {
       "A": "Incoterms",
       "B": "Ship-to party",
@@ -258,7 +263,7 @@
   },
   {
     "question_number": 20,
-    "question": "Notification (BDK).What is automatically created for each relevant third party?  A. Billing document  B. Purchase requisition    C. Delivery    D. Purchase order",
+    "question": "You save a sales order in Sales Processing using Third-Party without Shipping Notification (BDK). What is automatically created for each relevant third party?",
     "options": {
       "A": "Billing document",
       "B": "Purchase requisition",
@@ -271,7 +276,7 @@
   },
   {
     "question_number": 21,
-    "question": "can post goods issues?  A. Resource manager    B. inventory manager    C. Shipping specialist    D. Warehouse clerk",
+    "question": "You work on a Sell from Stock (BD9) process in SAP S/4HANA Cloud. Which business role can post goods issues?",
     "options": {
       "A": "Resource manager",
       "B": "inventory manager",
@@ -284,7 +289,7 @@
   },
   {
     "question_number": 22,
-    "question": "Contract Fulfillment Rates KPI?Note: There are 2 correct answers to this question.    A. Reference to an inquiry    B. Net Value > 0    C. Header status is completed     D. Valid on the current date",
+    "question": "Which of the following criteria must a contract meet to be considered in the Sales Contract Fulfillment Rates KPI?",
     "options": {
       "A": "Reference to an inquiry",
       "B": "Net Value > 0",
@@ -298,7 +303,7 @@
   },
   {
     "question_number": 23,
-    "question": "Configuration? Note: There are 2 correct answers to this question.    A.  System consistency checks    B. The selected deployment target    C. The selected scope      D. Added partner content",
+    "question": "What defines the organizational entities that are required in SAP Central Business Configuration? ",
     "options": {
       "A": "System consistency checks",
       "B": "The selected deployment target",
@@ -312,7 +317,7 @@
   },
   {
     "question_number": 24,
-    "question": "A. In the migration project settings    B. In the staging table   C. In the migration object    D. In the migration object template",
+    "question": "Where do you specify the data retention period in the SAP S/4HANA Migration Cockpit?",
     "options": {
       "A": "In the migration project settings",
       "B": "In the staging table",
@@ -325,10 +330,11 @@
   },
   {
     "question_number": 25,
-    "question": "integrate SAP S/4HANA Cloud with another SAP Cloud solution?Note: There are 2 correct  answers to this question.    A.  Predelivered APIs    B.  SAP integration Suite    C. SAP Process Orchestration    D. SAP Cloud Connector",
+    "question": "When a customer has a cloud-centric landscape, which technologies should you use to integrate SAP S/4HANA Cloud with another SAP Cloud solution?",
     "options": {
       "A": "Predelivered APIs",
-      "B": "SAP integration Suite    C. SAP Process Orchestration",
+      "B": "SAP integration Suite",
+      "C": "SAP Process Orchestration",
       "D": "SAP Cloud Connector"
     },
     "correct_answers": [
@@ -338,7 +344,7 @@
   },
   {
     "question_number": 26,
-    "question": "following entities can be added under the Company root node?Note: There are 2 correct  answers to this question.  A.  Sales Organization  B.  Purchasing Organization    C. Plant    D. Division",
+    "question": "In the Organizational Structure app in SAP Central Business Configuration, which of the following entities can be added under the Company root node?",
     "options": {
       "A": "Sales Organization",
       "B": "Purchasing Organization",
@@ -352,7 +358,7 @@
   },
   {
     "question_number": 27,
-    "question": "account posting of an invoice?Note: There are 2 correct answers to this question.    A.  General ledger (G/L) indicator    B. Cost center    C.  Reconciliation account    D. Chart of accounts",
+    "question": "What is different in the account posting of a down payment request, compared to the account posting of an invoice?",
     "options": {
       "A": "General ledger (G/L) indicator",
       "B": "Cost center",
@@ -366,12 +372,13 @@
   },
   {
     "question_number": 28,
-    "question": "shipping point in the sales order?Note: There are 3 correct answers to this question.  A. The transportation group from the material master record  B. The delivering plant determined or entered in the sales order item  C. The shipping condition from the business partner master record of the sold-to party  D. The loading group from the material master record    E. The transportation zone from the business partner master record of the ship-to party",
+    "question": "When you execute the Sell from Stock (BD9) process, which criteria determine the shipping point in the sales order?",
     "options": {
       "A": "The transportation group from the material master record",
       "B": "The delivering plant determined or entered in the sales order item",
       "C": "The shipping condition from the business partner master record of the sold-to party",
-      "D": "The loading group from the material master record    E. The transportation zone from the business partner master record of the ship-to party"
+      "D": "The loading group from the material master record",
+      "E": "The transportation zone from the business partner master record of the ship-to party"
     },
     "correct_answers": [
       "B",
@@ -381,7 +388,7 @@
   },
   {
     "question_number": 29,
-    "question": "A. The ability to have the same level of performance on every new dataset B. The ability of the input parameters to explain the target C. The quantity of predictions that can be realized in the unit of time D. The percentage of correct responses in the output dataset",
+    "question": "In a predictive model, what does the predictive power measure?",
     "options": {
       "A": "The ability to have the same level of performance on every new dataset",
       "B": "The ability of the input parameters to explain the target",
@@ -394,7 +401,7 @@
   },
   {
     "question_number": 30,
-    "question": "scope items? Note: There are 2 correct answers to this question.  A. Line of business B. Process flow C. Scope group D. Business area",
+    "question": "In the SAP Best Practices for SAP S/4HANA Cloud, what are the correct grouping levels for scope items?",
     "options": {
       "A": "Line of business",
       "B": "Process flow",
@@ -408,7 +415,7 @@
   },
   {
     "question_number": 31,
-    "question": "this question.  A. RFC calls B. Staging database C. Core Data Services D. File templates",
+    "question": "How can you migrate data to SAP S/4HANA Cloud?",
     "options": {
       "A": "RFC calls",
       "B": "Staging database",
@@ -422,7 +429,7 @@
   },
   {
     "question_number": 32,
-    "question": "in Predictive Analytics Model Training \u2014 Sales (2YJ)?  A. Net value of invoiced order items     B. Quantity of invoiced order items    C. Quantity of order items    D. Net value of order items",
+    "question": "For which parameter is the percentage of conversion from quotation to order calculated in Predictive Analytics Model Training — Sales (2YJ)?",
     "options": {
       "A": "Net value of invoiced order items",
       "B": "Quantity of invoiced order items",
@@ -435,11 +442,12 @@
   },
   {
     "question_number": 33,
-    "question": "There are 2 correct answers to this question.    A.  The test plan has already been executed    B. The test process has not been made visible.    C. The test plan user has not been created yet.     E. Date binding exists with another process",
+    "question": "What are some reasons you cannot remove a test process from a test plan?",
     "options": {
       "A": "The test plan has already been executed",
       "B": "The test process has not been made visible.",
-      "C": "The test plan user has not been created yet.     E. Date binding exists with another process"
+      "C": "The test plan user has not been created yet.",
+      "D": "Date binding exists with another process"
     },
     "correct_answers": [
       "A",
@@ -448,7 +456,7 @@
   },
   {
     "question_number": 34,
-    "question": "Note: There are 2 correct answers to this question.    A.  Manage billing document requests  B. Test billing document request API    C. Create Billing Documents (VF04)      D. Manage Billing Documents",
+    "question": "Which of the following SAP Fiori apps are part of the Convergent Billing process?",
     "options": {
       "A": "Manage billing document requests",
       "B": "Test billing document request API",
@@ -462,7 +470,7 @@
   },
   {
     "question_number": 35,
-    "question": "subsidiary running on SAP S/4HANA Cloud.In a 2-tier ERP scenario, which integration  technologies can you use?Note: There are 2 correct answers to this question.    A.  SAP Open Connectors    B. SAP Cloud Integration Automation Service    C. SAP Process Orchestration    D. SAP Cloud Connector",
+    "question": "You need to integrate the headquarters of a company running on SAP S/4HANA with a subsidiary running on SAP S/4HANA Cloud.In a 2-tier ERP scenario, which integration technologies can you use?",
     "options": {
       "A": "SAP Open Connectors",
       "B": "SAP Cloud Integration Automation Service",
@@ -476,12 +484,13 @@
   },
   {
     "question_number": 36,
-    "question": "database of the target system? Note: There are 3 correct answers to this question.    A. XML templates    B. SAP Smart Data Access    C. Customer\u2019s ETL tools    D. SAP SQL Anywhere    E. SAP HANA Smart Data Integration (SDI)",
+    "question": "What are the available methods through which you can fill staging tables in the SAP HANA database of the target system?",
     "options": {
       "A": "XML templates",
       "B": "SAP Smart Data Access",
       "C": "Customer\u2019s ETL tools",
-      "D": "SAP SQL Anywhere    E. SAP HANA Smart Data Integration (SDI)"
+      "D": "SAP SQL Anywhere",
+      "E": "SAP HANA Smart Data Integration (SDI)"
     },
     "correct_answers": [
       "B",
@@ -491,7 +500,7 @@
   },
   {
     "question_number": 37,
-    "question": "created to confirm a customer\u2019s intention to buy the products?    A. Sales inquiry    B. Sales order  C. Outbound delivery    D. Sales quotation",
+    "question": "You work on a Sell from Stock (BD9) process in SAP S/4HANA Cloud.What must be created to confirm a customer’s intention to buy the products?",
     "options": {
       "A": "Sales inquiry",
       "B": "Sales order",
@@ -504,7 +513,7 @@
   },
   {
     "question_number": 38,
-    "question": "following process steps is the shipping specials responsible for?Note: There are 2 correct  answers to this question.    A. Add freight costs    B. Create batches      C.  Run Advanced Available-to-Promise    D. Create outbound delivery",
+    "question": "You are working on a Sale from Stock (BD9) process in SAP S/4HANA Cloud. Which of the following process steps is the shipping specials responsible for?",
     "options": {
       "A": "Add freight costs",
       "B": "Create batches",
@@ -518,7 +527,7 @@
   },
   {
     "question_number": 39,
-    "question": "Stock process?    A. Billing type    B. Delivery document type    C. Sales document type    D. Picking document type",
+    "question": "What is the difference between the Free of Charge Delivery process and the Sell from Stock process?",
     "options": {
       "A": "Billing type",
       "B": "Delivery document type",
@@ -531,12 +540,13 @@
   },
   {
     "question_number": 40,
-    "question": "you create during the customer returns process?Note: There are 3 correct answers to this  question.    A.  Billing document    B.  Billing block    C.  Return order    D.  Delivery    E. Inspection lot",
+    "question": "You are working on a Customer Returns (BDD) process in SAP S/4HANA Cloud. What do you create during the customer returns process?",
     "options": {
       "A": "Billing document",
       "B": "Billing block",
       "C": "Return order",
-      "D": "Delivery    E. Inspection lot"
+      "D": "Delivery",
+      "E": "Inspection lot"
     },
     "correct_answers": [
       "A",
