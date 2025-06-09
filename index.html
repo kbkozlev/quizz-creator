@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+    .quiz-container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); position: relative; }
+    .question-header { font-weight: bold; margin-bottom: 10px; margin-top: 10px;}
+    .question-meta { position: absolute; top: 10px; right: 20px; font-size: 14px; color: #666; }
+    .options { margin: 10px 0; display: flex; flex-direction: column; }
+    .option { margin: 5px 0; }
+    .controls { display: flex; justify-content: space-between; margin-top: 20px; }
+    button { padding: 10px 15px; }
+    #result { text-align: center; font-size: 18px; font-weight: bold; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="quiz"></div>
+    <div class="controls">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+      <button id="submitBtn" style="display:none">Complete</button>
+    </div>
+    <div id="result"></div>
+    <div style="text-align:center; margin-top:20px;">
+      <button id="restartBtn" style="display:none">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script>
+    let questions = [];
+    let currentQuestionIndex = 0;
+    let userAnswers = {};
+
+    async function loadQuestions() {
+      const response = await fetch('quiz_questions.json');
+      questions = await response.json();
+      showQuestion();
+    }
+
+    function showQuestion() {
+      const quizDiv = document.getElementById('quiz');
+      const q = questions[currentQuestionIndex];
+      const numCorrect = q.correct_answers.length;
+      const inputType = numCorrect > 1 ? 'checkbox' : 'radio';
+
+      quizDiv.innerHTML = `
+        <div class="question-meta">Question ${currentQuestionIndex + 1} of ${questions.length}</div>
+        <div class="question-header">${q.question}</div>
+        <div><em>Select ${numCorrect} answer${numCorrect > 1 ? 's' : ''}:</em></div>
+        <div class="options">
+          ${Object.entries(q.options).map(([key, value]) => {
+            const checked = (userAnswers[q.question_number] || []).includes(key) ? 'checked' : '';
+            return `
+              <label class="option">
+                <input type="${inputType}" name="option" value="${key}" ${checked}/> ${key}. ${value}
+              </label>
+            `;
+          }).join('')}
+        </div>
+      `;
+
+      document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+      document.getElementById('nextBtn').style.display = currentQuestionIndex < questions.length - 1 ? 'inline' : 'none';
+      document.getElementById('submitBtn').style.display = currentQuestionIndex === questions.length - 1 ? 'inline' : 'none';
+    }
+
+    function saveUserAnswer() {
+      const q = questions[currentQuestionIndex];
+      const selected = [...document.querySelectorAll('input[name="option"]:checked')].map(e => e.value);
+      userAnswers[q.question_number] = selected;
+    }
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      saveUserAnswer();
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        showQuestion();
+      }
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      saveUserAnswer();
+      if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        showQuestion();
+      }
+    });
+
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      saveUserAnswer();
+      let score = 0;
+      questions.forEach(q => {
+        const selected = (userAnswers[q.question_number] || []).sort();
+        const correct = q.correct_answers.sort();
+        const allCorrect = selected.length === correct.length && selected.every((val, i) => val === correct[i]);
+        if (allCorrect) {
+          score++;
+        }
+      });
+      document.getElementById('quiz').style.display = 'none';
+      document.querySelector('.controls').style.display = 'none';
+      const percentage = Math.round((score / questions.length) * 100);
+      document.getElementById('result').innerText = `You scored ${score} out of ${questions.length} (${percentage}%)`;
+      document.getElementById('restartBtn').style.display = 'inline';
+    });
+
+    document.getElementById('restartBtn').addEventListener('click', () => {
+      currentQuestionIndex = 0;
+      userAnswers = {};
+      document.getElementById('quiz').style.display = 'block';
+      document.querySelector('.controls').style.display = 'flex';
+      document.getElementById('result').innerText = '';
+      document.getElementById('restartBtn').style.display = 'none';
+      showQuestion();
+    });
+
+    loadQuestions();
+  </script>
+</body>
+</html>

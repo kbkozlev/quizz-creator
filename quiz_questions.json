@@ -1,0 +1,1064 @@
+[
+  {
+    "question_number": 1,
+    "question": "Which organizational unit do you use to produce materials or provide goods and services?",
+    "options": {
+      "A": "Company code",
+      "B": "Storage location",
+      "C": "Plant",
+      "D": "Sales organization"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 2,
+    "question": "therefore must be documented during implementation? Note: There are 2 correct  answers to this question.  A. Business Process test B. Integration test C. String test D. Unit test",
+    "options": {
+      "A": "Business Process test",
+      "B": "Integration test",
+      "C": "String test",
+      "D": "Unit test"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 3,
+    "question": "A. The ability of the input parameters to explain the target B. The ability to display the same performance level on new datasets compared to the training dataset C. The ability to produce results with a constant level of correctness D. The percentage of correct responses in the output dataset",
+    "options": {
+      "A": "The ability of the input parameters to explain the target",
+      "B": "The ability to display the same performance level on new datasets compared to the training dataset",
+      "C": "The ability to produce results with a constant level of correctness",
+      "D": "The percentage of correct responses in the output dataset"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 4,
+    "question": "There are 2 correct answers to this question.  A. Maintain restrictions B. Assign PFCG profiles to a business role C. Assign business catalogs to a business role D. Maintain catalog roles",
+    "options": {
+      "A": "Maintain restrictions",
+      "B": "Assign PFCG profiles to a business role",
+      "C": "Assign business catalogs to a business role",
+      "D": "Maintain catalog roles"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_number": 5,
+    "question": "S/4HANA Cloud?Note: There are 2 correct answers to this question.  A. Custom business objects B. UI variants and changes C. Migration projects D. Custom business roles",
+    "options": {
+      "A": "Custom business objects",
+      "B": "UI variants and changes",
+      "C": "Migration projects",
+      "D": "Custom business roles"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 6,
+    "question": "relevant for the same business context?  A. In the Custom Fields app B. In the Maintain SAP Business Technology Platform Extension app C. In the Extensibility Cockpit app D. In the Runtime Authoring mode",
+    "options": {
+      "A": "In the Custom Fields app",
+      "B": "In the Maintain SAP Business Technology Platform Extension app",
+      "C": "In the Extensibility Cockpit app",
+      "D": "In the Runtime Authoring mode"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 7,
+    "question": "There are 2 correct answers to this question.  A. Dimensions defined by the user B. Plan data defined by the user C. Versions defined by the use D. Attributes defined by the user",
+    "options": {
+      "A": "Dimensions defined by the user",
+      "B": "Plan data defined by the user",
+      "C": "Versions defined by the use",
+      "D": "Attributes defined by the user"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 8,
+    "question": "are 2 correct answers to this question.    A.  Create outbound delivery    B. Confirm proof of delivery    C. Perform delivery split    D.  Create sales order",
+    "options": {
+      "A": "Create outbound delivery",
+      "B": "Confirm proof of delivery",
+      "C": "Perform delivery split",
+      "D": "Create sales order"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 9,
+    "question": "after content activation? Note: There are 3 correct answers to this question.    A.  Delete existing organizational entities    B.  Add new organizational entities    C. Create additional product-specific configurations    D.  Edit existing product-specific configurations  E. Change the group ledger scenario",
+    "options": {
+      "A": "Delete existing organizational entities",
+      "B": "Add new organizational entities",
+      "C": "Create additional product-specific configurations",
+      "D": "Edit existing product-specific configurations  E. Change the group ledger scenario"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "question_number": 10,
+    "question": "Specific Configuration Phase?Note: There are 3 correct answers to this question.    A. Add blocking reasons for billing.    B. Create new scope items    C. Add new sales organizations.    D. Change approval thresholds.    E. Modify building blocks",
+    "options": {
+      "A": "Add blocking reasons for billing.",
+      "B": "Create new scope items",
+      "C": "Add new sales organizations.",
+      "D": "Change approval thresholds.    E. Modify building blocks"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 11,
+    "question": "Notification (BDK) process? Note: There are 3 correct answers to this question.     A. Create outbound delivery    B. Create inbound delivery    C. Create billing document    D. Enter vendor invoice    E. Approve and release purchase order",
+    "options": {
+      "A": "Create outbound delivery",
+      "B": "Create inbound delivery",
+      "C": "Create billing document",
+      "D": "Enter vendor invoice    E. Approve and release purchase order"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 12,
+    "question": "distribution channel to form a sales area?    A.  Division    B. Sales group    C. Sales office    D. Plant",
+    "options": {
+      "A": "Division",
+      "B": "Sales group",
+      "C": "Sales office",
+      "D": "Plant"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 13,
+    "question": "SAP S/4HANA Cloud.What does the Create Credit Memo Request process step indicate?    A. Authorization to release credit note    B. Customer's intention to return the goods    C. Intention to credit the customer    D. Intention to replace the returned goods",
+    "options": {
+      "A": "Authorization to release credit note",
+      "B": "Customer's intention to return the goods",
+      "C": "Intention to credit the customer",
+      "D": "Intention to replace the returned goods"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 14,
+    "question": "updated?    A. Execute picking    B. Create delivery    C. Post goods issue   D. Job scheduling for billing creation",
+    "options": {
+      "A": "Execute picking",
+      "B": "Create delivery",
+      "C": "Post goods issue",
+      "D": "Job scheduling for billing creation"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 15,
+    "question": "A. SAPUIS SDK    B. SAP ADK    C. SAP HANA Studio    D. SAP Cloud SDK",
+    "options": {
+      "A": "SAPUIS SDK",
+      "B": "SAP ADK",
+      "C": "SAP HANA Studio",
+      "D": "SAP Cloud SDK"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 16,
+    "question": "SAP Fiori app? Note: There are 2 correct answers to this question.    A.  Set the billing date and billing type before the billing    B. Check the legal control status.    C. Create separate billing document for each item on the billing due list  D. Re-determine prices at creation of the billing document.",
+    "options": {
+      "A": "Set the billing date and billing type before the billing",
+      "B": "Check the legal control status.",
+      "C": "Create separate billing document for each item on the billing due list",
+      "D": "Re-determine prices at creation of the billing document."
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "question_number": 17,
+    "question": "A. Billing plan    B. Order reason  C. Return reason    D. Billing block",
+    "options": {
+      "A": "Billing plan",
+      "B": "Order reason",
+      "C": "Return reason",
+      "D": "Billing block"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 18,
+    "question": "A. The percentage of the number of orders that was converted from quotations B. The percentage of the number of order items that was converted from quotation items           C. The percentage of the net value order items that was converted from quotation items.    D. The percentage of the net value of billing documents that was converted from quotations",
+    "options": {
+      "A": "The percentage of the number of orders that was converted from quotations",
+      "B": "The percentage of the number of order items that was converted from quotation items           C. The percentage of the net value order items that was converted from quotation items.",
+      "D": "The percentage of the net value of billing documents that was converted from quotations"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 19,
+    "question": "subsequent billing document. Which of the following document item characteristics  must be identical? Note: There are 2 correct answers to this question.  A. Incoterms    B. Ship-to party    C. Billing date    D. Payer",
+    "options": {
+      "A": "Incoterms",
+      "B": "Ship-to party",
+      "C": "Billing date",
+      "D": "Payer"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 20,
+    "question": "Notification (BDK).What is automatically created for each relevant third party?  A. Billing document  B. Purchase requisition    C. Delivery    D. Purchase order",
+    "options": {
+      "A": "Billing document",
+      "B": "Purchase requisition",
+      "C": "Delivery",
+      "D": "Purchase order"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 21,
+    "question": "can post goods issues?  A. Resource manager    B. inventory manager    C. Shipping specialist    D. Warehouse clerk",
+    "options": {
+      "A": "Resource manager",
+      "B": "inventory manager",
+      "C": "Shipping specialist",
+      "D": "Warehouse clerk"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 22,
+    "question": "Contract Fulfillment Rates KPI?Note: There are 2 correct answers to this question.    A. Reference to an inquiry    B. Net Value > 0    C. Header status is completed     D. Valid on the current date",
+    "options": {
+      "A": "Reference to an inquiry",
+      "B": "Net Value > 0",
+      "C": "Header status is completed",
+      "D": "Valid on the current date"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 23,
+    "question": "Configuration? Note: There are 2 correct answers to this question.    A.  System consistency checks    B. The selected deployment target    C. The selected scope      D. Added partner content",
+    "options": {
+      "A": "System consistency checks",
+      "B": "The selected deployment target",
+      "C": "The selected scope",
+      "D": "Added partner content"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "question_number": 24,
+    "question": "A. In the migration project settings    B. In the staging table   C. In the migration object    D. In the migration object template",
+    "options": {
+      "A": "In the migration project settings",
+      "B": "In the staging table",
+      "C": "In the migration object",
+      "D": "In the migration object template"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 25,
+    "question": "integrate SAP S/4HANA Cloud with another SAP Cloud solution?Note: There are 2 correct  answers to this question.    A.  Predelivered APIs    B.  SAP integration Suite    C. SAP Process Orchestration    D. SAP Cloud Connector",
+    "options": {
+      "A": "Predelivered APIs",
+      "B": "SAP integration Suite    C. SAP Process Orchestration",
+      "D": "SAP Cloud Connector"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 26,
+    "question": "following entities can be added under the Company root node?Note: There are 2 correct  answers to this question.  A.  Sales Organization  B.  Purchasing Organization    C. Plant    D. Division",
+    "options": {
+      "A": "Sales Organization",
+      "B": "Purchasing Organization",
+      "C": "Plant",
+      "D": "Division"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 27,
+    "question": "account posting of an invoice?Note: There are 2 correct answers to this question.    A.  General ledger (G/L) indicator    B. Cost center    C.  Reconciliation account    D. Chart of accounts",
+    "options": {
+      "A": "General ledger (G/L) indicator",
+      "B": "Cost center",
+      "C": "Reconciliation account",
+      "D": "Chart of accounts"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "question_number": 28,
+    "question": "shipping point in the sales order?Note: There are 3 correct answers to this question.  A. The transportation group from the material master record  B. The delivering plant determined or entered in the sales order item  C. The shipping condition from the business partner master record of the sold-to party  D. The loading group from the material master record    E. The transportation zone from the business partner master record of the ship-to party",
+    "options": {
+      "A": "The transportation group from the material master record",
+      "B": "The delivering plant determined or entered in the sales order item",
+      "C": "The shipping condition from the business partner master record of the sold-to party",
+      "D": "The loading group from the material master record    E. The transportation zone from the business partner master record of the ship-to party"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 29,
+    "question": "A. The ability to have the same level of performance on every new dataset B. The ability of the input parameters to explain the target C. The quantity of predictions that can be realized in the unit of time D. The percentage of correct responses in the output dataset",
+    "options": {
+      "A": "The ability to have the same level of performance on every new dataset",
+      "B": "The ability of the input parameters to explain the target",
+      "C": "The quantity of predictions that can be realized in the unit of time",
+      "D": "The percentage of correct responses in the output dataset"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 30,
+    "question": "scope items? Note: There are 2 correct answers to this question.  A. Line of business B. Process flow C. Scope group D. Business area",
+    "options": {
+      "A": "Line of business",
+      "B": "Process flow",
+      "C": "Scope group",
+      "D": "Business area"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 31,
+    "question": "this question.  A. RFC calls B. Staging database C. Core Data Services D. File templates",
+    "options": {
+      "A": "RFC calls",
+      "B": "Staging database",
+      "C": "Core Data Services",
+      "D": "File templates"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "question_number": 32,
+    "question": "in Predictive Analytics Model Training \u2014 Sales (2YJ)?  A. Net value of invoiced order items     B. Quantity of invoiced order items    C. Quantity of order items    D. Net value of order items",
+    "options": {
+      "A": "Net value of invoiced order items",
+      "B": "Quantity of invoiced order items",
+      "C": "Quantity of order items",
+      "D": "Net value of order items"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 33,
+    "question": "There are 2 correct answers to this question.    A.  The test plan has already been executed    B. The test process has not been made visible.    C. The test plan user has not been created yet.     E. Date binding exists with another process",
+    "options": {
+      "A": "The test plan has already been executed",
+      "B": "The test process has not been made visible.",
+      "C": "The test plan user has not been created yet.     E. Date binding exists with another process"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 34,
+    "question": "Note: There are 2 correct answers to this question.    A.  Manage billing document requests  B. Test billing document request API    C. Create Billing Documents (VF04)      D. Manage Billing Documents",
+    "options": {
+      "A": "Manage billing document requests",
+      "B": "Test billing document request API",
+      "C": "Create Billing Documents (VF04)",
+      "D": "Manage Billing Documents"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 35,
+    "question": "subsidiary running on SAP S/4HANA Cloud.In a 2-tier ERP scenario, which integration  technologies can you use?Note: There are 2 correct answers to this question.    A.  SAP Open Connectors    B. SAP Cloud Integration Automation Service    C. SAP Process Orchestration    D. SAP Cloud Connector",
+    "options": {
+      "A": "SAP Open Connectors",
+      "B": "SAP Cloud Integration Automation Service",
+      "C": "SAP Process Orchestration",
+      "D": "SAP Cloud Connector"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 36,
+    "question": "database of the target system? Note: There are 3 correct answers to this question.    A. XML templates    B. SAP Smart Data Access    C. Customer\u2019s ETL tools    D. SAP SQL Anywhere    E. SAP HANA Smart Data Integration (SDI)",
+    "options": {
+      "A": "XML templates",
+      "B": "SAP Smart Data Access",
+      "C": "Customer\u2019s ETL tools",
+      "D": "SAP SQL Anywhere    E. SAP HANA Smart Data Integration (SDI)"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 37,
+    "question": "created to confirm a customer\u2019s intention to buy the products?    A. Sales inquiry    B. Sales order  C. Outbound delivery    D. Sales quotation",
+    "options": {
+      "A": "Sales inquiry",
+      "B": "Sales order",
+      "C": "Outbound delivery",
+      "D": "Sales quotation"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 38,
+    "question": "following process steps is the shipping specials responsible for?Note: There are 2 correct  answers to this question.    A. Add freight costs    B. Create batches      C.  Run Advanced Available-to-Promise    D. Create outbound delivery",
+    "options": {
+      "A": "Add freight costs",
+      "B": "Create batches",
+      "C": "Run Advanced Available-to-Promise",
+      "D": "Create outbound delivery"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 39,
+    "question": "Stock process?    A. Billing type    B. Delivery document type    C. Sales document type    D. Picking document type",
+    "options": {
+      "A": "Billing type",
+      "B": "Delivery document type",
+      "C": "Sales document type",
+      "D": "Picking document type"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 40,
+    "question": "you create during the customer returns process?Note: There are 3 correct answers to this  question.    A.  Billing document    B.  Billing block    C.  Return order    D.  Delivery    E. Inspection lot",
+    "options": {
+      "A": "Billing document",
+      "B": "Billing block",
+      "C": "Return order",
+      "D": "Delivery    E. Inspection lot"
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 41,
+    "question": "There are 2 correct answers to this question.    A. Deactivate scope items that are NOT part of the Statement of Work/Digital Discovery  Assessment.  B. Evaluation the L2 Business-Driven Configuration Questionnaire responses    C. Review the integration requirements collected from the Digital Discovery Assessment.    D. Upload customer master data in the starter system using migration templates",
+    "options": {
+      "A": "Deactivate scope items that are NOT part of the Statement of Work/Digital Discovery  Assessment.",
+      "B": "Evaluation the L2 Business-Driven Configuration Questionnaire responses",
+      "C": "Review the integration requirements collected from the Digital Discovery Assessment.",
+      "D": "Upload customer master data in the starter system using migration templates"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "question_number": 42,
+    "question": "Configuration? Note: There are 2 correct answers to this question.      A.  Countries where business processes will run   B. Public sector processes  C. Pre-defined scenario bundles  D.  Scope extension",
+    "options": {
+      "A": "Countries where business processes will run",
+      "B": "Public sector processes",
+      "C": "Pre-defined scenario bundles",
+      "D": "Scope extension"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 43,
+    "question": "A. Sales organization Distribution channel Division    B. Customer Material Inventory    C. Order Delivery Billing    D. Header Item Schedule line",
+    "options": {
+      "A": "Sales organization Distribution channel Division",
+      "B": "Customer Material Inventory",
+      "C": "Order Delivery Billing",
+      "D": "Header Item Schedule line"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 44,
+    "question": "company code?    A.  Sales organization  B. Distribution channel    C. Plant      D. Division",
+    "options": {
+      "A": "Sales organization",
+      "B": "Distribution channel",
+      "C": "Plant",
+      "D": "Division"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 45,
+    "question": "app?    A. Import best-practice business transactions and test business processes.    B. Generate mass business transactions to test the system.    C. Simulate business process execution.  D. Test migration data against the system customization.",
+    "options": {
+      "A": "Import best-practice business transactions and test business processes.",
+      "B": "Generate mass business transactions to test the system.",
+      "C": "Simulate business process execution.",
+      "D": "Test migration data against the system customization."
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 46,
+    "question": "customers considered data controllers?  A. When they use SAP cloud applications B. When they engage other business in the European Union C. When they request implementation of a cloud solution D. When they extract legacy data in preparation for migration",
+    "options": {
+      "A": "When they use SAP cloud applications",
+      "B": "When they engage other business in the European Union",
+      "C": "When they request implementation of a cloud solution",
+      "D": "When they extract legacy data in preparation for migration"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 47,
+    "question": "process. Who creates the down payment request?  A. Billing clerk B. Internal sales representative C. Accounts receivable accountant D. Shipping specialist",
+    "options": {
+      "A": "Billing clerk",
+      "B": "Internal sales representative",
+      "C": "Accounts receivable accountant",
+      "D": "Shipping specialist"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 48,
+    "question": "determine the delivery plant?  A. Business partner (ship-to party) Material master record Customer-material info record B. Customer-material info record Business partner (ship-to party) Material master record C. Customer-material info record material master record business partner (ship-to party) D. Material master record Business partner (ship-to party) Customer-material info record",
+    "options": {
+      "A": "Business partner (ship-to party) Material master record Customer-material info record",
+      "B": "Customer-material info record Business partner (ship-to party) Material master record",
+      "C": "Customer-material info record material master record business partner (ship-to party)",
+      "D": "Material master record Business partner (ship-to party) Customer-material info record"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 49,
+    "question": "question.  A. Review the detailed action log   B. Re-run the test plan.    C. Review canceled actions.  D.  Review failed process steps",
+    "options": {
+      "A": "Review the detailed action log",
+      "B": "Re-run the test plan.",
+      "C": "Review canceled actions.",
+      "D": "Review failed process steps"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 50,
+    "question": "correct answers to this question.  A. Upload a certificate for a communication user.  B. Lock and unlock the initial user account that is delivered with the new system  C. Assign and unassing users to user group    D. Change the username and password of a print user.",
+    "options": {
+      "A": "Upload a certificate for a communication user.",
+      "B": "Lock and unlock the initial user account that is delivered with the new system",
+      "C": "Assign and unassing users to user group",
+      "D": "Change the username and password of a print user."
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_number": 51,
+    "question": "this question.    A. Compare ordered, shipped, and billed amounts.    B. Compare planned with actual sales data.    C. Search create, and update sales plans    D. Calculate the sales quotation conversion rate",
+    "options": {
+      "A": "Compare ordered, shipped, and billed amounts.",
+      "B": "Compare planned with actual sales data.",
+      "C": "Search create, and update sales plans",
+      "D": "Calculate the sales quotation conversion rate"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 52,
+    "question": "phase? Note: There are 2 correct answers to this question.  A. Define the organizational structure and chart of accounts.  B. Conduct the Fit-to-Standard analysis to gather configuration value  C. Conduct the Digital Discovery Assessment to identify extension requirement    D. Use the Quality system to demonstrate SAP Best Practice processes.",
+    "options": {
+      "A": "Define the organizational structure and chart of accounts.",
+      "B": "Conduct the Fit-to-Standard analysis to gather configuration value",
+      "C": "Conduct the Digital Discovery Assessment to identify extension requirement",
+      "D": "Use the Quality system to demonstrate SAP Best Practice processes."
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_number": 53,
+    "question": "A. Billing due for sales documents Billing due for deliveries    B. Billing due for sales documents Billing due for purchase orders    C. Billing due for SD document Billing information from a non-SAP system    D. Billing due for sales orders Billing due for return orders",
+    "options": {
+      "A": "Billing due for sales documents Billing due for deliveries",
+      "B": "Billing due for sales documents Billing due for purchase orders",
+      "C": "Billing due for SD document Billing information from a non-SAP system",
+      "D": "Billing due for sales orders Billing due for return orders"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 54,
+    "question": "S/4HANA Cloud?  A. SAP Maintenance Planner    B. SAP Solution Manager    C. SAP Best Practices Explorer    D. SAP Activate Roadmap",
+    "options": {
+      "A": "SAP Maintenance Planner",
+      "B": "SAP Solution Manager",
+      "C": "SAP Best Practices Explorer",
+      "D": "SAP Activate Roadmap"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 57,
+    "question": "billing or pro forma billing?    A.  Item category    B. Product group  C. Order type  D. Payment term",
+    "options": {
+      "A": "Item category",
+      "B": "Product group",
+      "C": "Order type",
+      "D": "Payment term"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 58,
+    "question": "information do these analytical apps provide in the Order-to-Cash process? Note:  There are 2 correct answers to this question.  A. The current status of the customer's credit limit  B. The current status of sales volumes and profit margins  C. The current status of sales order, quotations, and back order    D. The current status of warehouse stock levels",
+    "options": {
+      "A": "The current status of the customer's credit limit",
+      "B": "The current status of sales volumes and profit margins",
+      "C": "The current status of sales order, quotations, and back order",
+      "D": "The current status of warehouse stock levels"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_number": 59,
+    "question": "contribute to the automatic route determination for the delivery-relevant items in the  sales order?Note: There are 3 correct answers to this question.    A. The transportation group from the material master record    B.   The transportation zone from the business partner master record of the sold-to party.    C.   The shipping condition from the business partner master record of the sold-to party    D. The departure zone of the shipping point    E. The loading group from the material master record",
+    "options": {
+      "A": "The transportation group from the material master record",
+      "B": "The transportation zone from the business partner master record of the sold-to party.",
+      "C": "The shipping condition from the business partner master record of the sold-to party",
+      "D": "The departure zone of the shipping point    E. The loading group from the material master record"
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 60,
+    "question": "confirmation in SAP Central Business Configuration? Note: There are 2 correct answers  to this question.  A. Scoping  B. Configuration activities  C. Group currency  D. Fiscal year variant",
+    "options": {
+      "A": "Scoping",
+      "B": "Configuration activities",
+      "C": "Group currency",
+      "D": "Fiscal year variant"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "question_number": 61,
+    "question": "inquiry? Note: There are 2 correct answers to this question.    A.  Sales order    B. Quantity contract    C. Value contract     D. Sales quotation",
+    "options": {
+      "A": "Sales order",
+      "B": "Quantity contract",
+      "C": "Value contract     D. Sales quotation"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 62,
+    "question": "Which SAP Fiori apps are used for credit memo processing?Note: There are 2 correct  answers to this question.    A. Manage Sales Order    B.  Manage Debit Memo Requests    C.  Manage Credit Memo Requests    D. Create Billing Documents",
+    "options": {
+      "A": "Manage Sales Order",
+      "B": "Manage Debit Memo Requests",
+      "C": "Manage Credit Memo Requests",
+      "D": "Create Billing Documents"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "question_number": 63,
+    "question": "sales order entry?    A. Create a sales order with a dedicated order type.      B. Enter a specific condition in the pricing procedure of the sales order.    C. Assign a particular category to the sales order item.    D. Enter and appropriate item in the billing plan of the sales order",
+    "options": {
+      "A": "Create a sales order with a dedicated order type.",
+      "B": "Enter a specific condition in the pricing procedure of the sales order.",
+      "C": "Assign a particular category to the sales order item.",
+      "D": "Enter and appropriate item in the billing plan of the sales order"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 64,
+    "question": "available?    A. SAP API Business Hub    B. SAP Extensibility Explorer    C. SAP Fiori Apps Reference Library    D. SAP BTP Cockpit",
+    "options": {
+      "A": "SAP API Business Hub",
+      "B": "SAP Extensibility Explorer",
+      "C": "SAP Fiori Apps Reference Library",
+      "D": "SAP BTP Cockpit"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 65,
+    "question": "process? Note: There are 3 correct answers to this question.    A. Shipping Specialist    B. Sales Manager    C. Returns Clerk    D. Billing Clerk    E. Internal sales representative",
+    "options": {
+      "A": "Shipping Specialist",
+      "B": "Sales Manager",
+      "C": "Returns Clerk",
+      "D": "Billing Clerk    E. Internal sales representative"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_number": 66,
+    "question": "requests? Note: There are 2 correct answers to this question.    A.  Sales order    B.  Billing document    C. Quantity contract    D. Delivery document",
+    "options": {
+      "A": "Sales order",
+      "B": "Billing document",
+      "C": "Quantity contract",
+      "D": "Delivery document"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 67,
+    "question": "Standard workshops? Note: There are 2 correct answers to this question.    A.  Conduct end-user training on active scope items.    B. Highlight areas that require configuration or extensibility decision    C. Demonstrate SAP Best Practices in the Starter system.    D. Determine set up instructions for customer-driven integrations.",
+    "options": {
+      "A": "Conduct end-user training on active scope items.",
+      "B": "Highlight areas that require configuration or extensibility decision",
+      "C": "Demonstrate SAP Best Practices in the Starter system.",
+      "D": "Determine set up instructions for customer-driven integrations."
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question_number": 68,
+    "question": "business role creates the debit memo request?    A.  Internal sales representative    B. Accounts payable accountant    C. Sales manager    D. Billing clerk",
+    "options": {
+      "A": "Internal sales representative",
+      "B": "Accounts payable accountant",
+      "C": "Sales manager",
+      "D": "Billing clerk"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 69,
+    "question": "Cloud?Note: There are 3 correct answers to this question.  A. Communication user  B. Communication arrangement     C. Communication system    D. Communication interface    E. Communication API",
+    "options": {
+      "A": "Communication user",
+      "B": "Communication arrangement",
+      "C": "Communication system",
+      "D": "Communication interface    E. Communication API"
+    },
+    "correct_answers": [
+      "B"
+    ]
+  },
+  {
+    "question_number": 70,
+    "question": "sequence are the process steps executed?    A. Create sales inquiry Accept sales inquiry Create sale order B. Create customer Create sales quotation Create sales contract C. Create sales inquiry Accept sales inquiry Create sales contract D. Create customer Create sales quotation Create sales order",
+    "options": {
+      "A": "Create sales inquiry Accept sales inquiry Create sale order",
+      "B": "Create customer Create sales quotation Create sales contract",
+      "C": "Create sales inquiry Accept sales inquiry Create sales contract",
+      "D": "Create customer Create sales quotation Create sales order"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 71,
+    "question": "3 correct answers to this question.  A. Conduct risk-based assessments to determine the value of activating new processes. B. Serve as a central contact for SAP and manage interactions with the SAP Service Center. C. Ensure the resources necessary for the project\u2019s success are available D. Determine KPIs that will support a continuous improvement mindset E. Reduce the total cost of ownership for IT",
+    "options": {
+      "A": "Conduct risk-based assessments to determine the value of activating new processes.",
+      "B": "Serve as a central contact for SAP and manage interactions with the SAP Service Center.",
+      "C": "Ensure the resources necessary for the project\u2019s success are available",
+      "D": "Determine KPIs that will support a continuous improvement mindset E. Reduce the total cost of ownership for IT"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 72,
+    "question": "scope item?Note: There are 2 correct answers to this question.  A. Order Fulfillment Specialist B. Sales Manager C. Analytics Specialist D. Order-to-Cash Process Manager",
+    "options": {
+      "A": "Order Fulfillment Specialist",
+      "B": "Sales Manager",
+      "C": "Analytics Specialist",
+      "D": "Order-to-Cash Process Manager"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_number": 73,
+    "question": "process tests on your behalf?Note: There are 2 correct answers to this question.  A. SAP-made changes to the standard test process B. Changes to the data input requirements (Custom data fields) C. Configuration changes that impact the process flow D. Changes to the SAP S/4HANA Cloud release (upgrade)",
+    "options": {
+      "A": "SAP-made changes to the standard test process",
+      "B": "Changes to the data input requirements (Custom data fields)",
+      "C": "Configuration changes that impact the process flow",
+      "D": "Changes to the SAP S/4HANA Cloud release (upgrade)"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "question_number": 74,
+    "question": "and prediction confidence?  A. From 0 to 1000    B. From 0 to 100  C. From 0 to 10  D. From 0 to 1",
+    "options": {
+      "A": "From 0 to 1000",
+      "B": "From 0 to 100",
+      "C": "From 0 to 10",
+      "D": "From 0 to 1"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 75,
+    "question": "information?    A. If the authorizations for a business user are missing or insufficient    B. If a business user accessed data in a custom field of an application    C. If a business user has restrictions when accessing data in an application    D. If a business user accessed a business partner\u2019s personal data",
+    "options": {
+      "A": "If the authorizations for a business user are missing or insufficient",
+      "B": "If a business user accessed data in a custom field of an application",
+      "C": "If a business user has restrictions when accessing data in an application",
+      "D": "If a business user accessed a business partner\u2019s personal data"
+    },
+    "correct_answers": [
+      "D"
+    ]
+  },
+  {
+    "question_number": 76,
+    "question": "answers to this question.    A.  Reject all items for a selected sales quotation.    B.  Search for sales quotations using a free test search    C. Execute the price determination for a selected sales quotation    D.  Execute the validity period for a selected sales quotation.  E. Process output for a selected sales quotation.",
+    "options": {
+      "A": "Reject all items for a selected sales quotation.",
+      "B": "Search for sales quotations using a free test search",
+      "C": "Execute the price determination for a selected sales quotation",
+      "D": "Execute the validity period for a selected sales quotation.  E. Process output for a selected sales quotation."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "question_number": 77,
+    "question": "answers to this question.  A. Extensibility using the Legacy System Migration Workbench (LSMW) B. Guidance and simulation of the migration process C. Mapping source values to SAP S/4HANA target values D. Combining the staging and file approaches into one migration project",
+    "options": {
+      "A": "Extensibility using the Legacy System Migration Workbench (LSMW)",
+      "B": "Guidance and simulation of the migration process",
+      "C": "Mapping source values to SAP S/4HANA target values",
+      "D": "Combining the staging and file approaches into one migration project"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 78,
+    "question": "A. Deactivation of SAP administrative users B. Change logging through audit trails C. Application-level user management D. API management",
+    "options": {
+      "A": "Deactivation of SAP administrative users",
+      "B": "Change logging through audit trails",
+      "C": "Application-level user management",
+      "D": "API management"
+    },
+    "correct_answers": [
+      "C"
+    ]
+  },
+  {
+    "question_number": 79,
+    "question": "are 3 correct answers to this question.  A. Regression B. Custom C. Post-upgrade D. Standard E. Integration",
+    "options": {
+      "A": "Regression",
+      "B": "Custom",
+      "C": "Post-upgrade",
+      "D": "Standard E. Integration"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_number": 80,
+    "question": "S/4HANA Cloud. Which of the following split criteria always prevent the combination of  multiple sales orders into a single outbound delivery? Note: There are 2 correct answers  to this question.  A. Payment term B. Shipping point C. Ship-to-party D. Plant",
+    "options": {
+      "A": "Payment term",
+      "B": "Shipping point",
+      "C": "Ship-to-party",
+      "D": "Plant"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  }
+]
