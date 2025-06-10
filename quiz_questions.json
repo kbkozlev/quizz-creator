@@ -556,7 +556,7 @@
   },
   {
     "question_number": 41,
-    "question": "There are 2 correct answers to this question.    A. Deactivate scope items that are NOT part of the Statement of Work/Digital Discovery  Assessment.  B. Evaluation the L2 Business-Driven Configuration Questionnaire responses    C. Review the integration requirements collected from the Digital Discovery Assessment.    D. Upload customer master data in the starter system using migration templates",
+    "question": "Which activities does the consultant do before the first Fit-to-Standard workshop?",
     "options": {
       "A": "Deactivate scope items that are NOT part of the Statement of Work/Digital Discovery  Assessment.",
       "B": "Evaluation the L2 Business-Driven Configuration Questionnaire responses",
@@ -570,7 +570,7 @@
   },
   {
     "question_number": 42,
-    "question": "Configuration? Note: There are 2 correct answers to this question.      A.  Countries where business processes will run   B. Public sector processes  C. Pre-defined scenario bundles  D.  Scope extension",
+    "question": "What are customers able to scope in SAP S/4HANA Cloud with SAP Central Business Configuration? ",
     "options": {
       "A": "Countries where business processes will run",
       "B": "Public sector processes",
@@ -584,7 +584,7 @@
   },
   {
     "question_number": 43,
-    "question": "A. Sales organization Distribution channel Division    B. Customer Material Inventory    C. Order Delivery Billing    D. Header Item Schedule line",
+    "question": "Which levels constitute the structure of a sales order?",
     "options": {
       "A": "Sales organization Distribution channel Division",
       "B": "Customer Material Inventory",
@@ -597,7 +597,7 @@
   },
   {
     "question_number": 44,
-    "question": "company code?    A.  Sales organization  B. Distribution channel    C. Plant      D. Division",
+    "question": "Which organizational element determines that the sales area can belong to only one company code?",
     "options": {
       "A": "Sales organization",
       "B": "Distribution channel",
@@ -610,7 +610,7 @@
   },
   {
     "question_number": 45,
-    "question": "app?    A. Import best-practice business transactions and test business processes.    B. Generate mass business transactions to test the system.    C. Simulate business process execution.  D. Test migration data against the system customization.",
+    "question": "What can you do with the Simulate Import function of the Manage Your Solution SAP Fiori app?",
     "options": {
       "A": "Import best-practice business transactions and test business processes.",
       "B": "Generate mass business transactions to test the system.",
@@ -623,7 +623,7 @@
   },
   {
     "question_number": 46,
-    "question": "customers considered data controllers?  A. When they use SAP cloud applications B. When they engage other business in the European Union C. When they request implementation of a cloud solution D. When they extract legacy data in preparation for migration",
+    "question": "According to the General Data Protection Regulation (GDPR) laws, when are SAP customers considered data controllers?",
     "options": {
       "A": "When they use SAP cloud applications",
       "B": "When they engage other business in the European Union",
@@ -636,7 +636,7 @@
   },
   {
     "question_number": 47,
-    "question": "process. Who creates the down payment request?  A. Billing clerk B. Internal sales representative C. Accounts receivable accountant D. Shipping specialist",
+    "question": "You are running the Sales Order Processing with Customer Down Payment (BKJ) process. Who creates the down payment request?",
     "options": {
       "A": "Billing clerk",
       "B": "Internal sales representative",
@@ -649,7 +649,7 @@
   },
   {
     "question_number": 48,
-    "question": "determine the delivery plant?  A. Business partner (ship-to party) Material master record Customer-material info record B. Customer-material info record Business partner (ship-to party) Material master record C. Customer-material info record material master record business partner (ship-to party) D. Material master record Business partner (ship-to party) Customer-material info record",
+    "question": "When you create a sales order item, in which sequence is the master data read to determine the delivery plant?",
     "options": {
       "A": "Business partner (ship-to party) Material master record Customer-material info record",
       "B": "Customer-material info record Business partner (ship-to party) Material master record",
@@ -662,7 +662,7 @@
   },
   {
     "question_number": 49,
-    "question": "question.  A. Review the detailed action log   B. Re-run the test plan.    C. Review canceled actions.  D.  Review failed process steps",
+    "question": "How do you identify errors in a test plan?",
     "options": {
       "A": "Review the detailed action log",
       "B": "Re-run the test plan.",
@@ -676,7 +676,7 @@
   },
   {
     "question_number": 50,
-    "question": "correct answers to this question.  A. Upload a certificate for a communication user.  B. Lock and unlock the initial user account that is delivered with the new system  C. Assign and unassing users to user group    D. Change the username and password of a print user.",
+    "question": "What tasks can you perform from the Display Technical Users app?",
     "options": {
       "A": "Upload a certificate for a communication user.",
       "B": "Lock and unlock the initial user account that is delivered with the new system",
@@ -690,7 +690,7 @@
   },
   {
     "question_number": 51,
-    "question": "this question.    A. Compare ordered, shipped, and billed amounts.    B. Compare planned with actual sales data.    C. Search create, and update sales plans    D. Calculate the sales quotation conversion rate",
+    "question": "What can you do with the planning apps for sales?",
     "options": {
       "A": "Compare ordered, shipped, and billed amounts.",
       "B": "Compare planned with actual sales data.",
@@ -704,7 +704,7 @@
   },
   {
     "question_number": 52,
-    "question": "phase? Note: There are 2 correct answers to this question.  A. Define the organizational structure and chart of accounts.  B. Conduct the Fit-to-Standard analysis to gather configuration value  C. Conduct the Digital Discovery Assessment to identify extension requirement    D. Use the Quality system to demonstrate SAP Best Practice processes.",
+    "question": "Based on the SAP Activate methodology, which activities must you perform in the Explore phase?",
     "options": {
       "A": "Define the organizational structure and chart of accounts.",
       "B": "Conduct the Fit-to-Standard analysis to gather configuration value",
@@ -718,7 +718,7 @@
   },
   {
     "question_number": 53,
-    "question": "A. Billing due for sales documents Billing due for deliveries    B. Billing due for sales documents Billing due for purchase orders    C. Billing due for SD document Billing information from a non-SAP system    D. Billing due for sales orders Billing due for return orders",
+    "question": "What does Convergent Billing allow you to combine in a unique invoice?",
     "options": {
       "A": "Billing due for sales documents Billing due for deliveries",
       "B": "Billing due for sales documents Billing due for purchase orders",
@@ -731,7 +731,7 @@
   },
   {
     "question_number": 54,
-    "question": "S/4HANA Cloud?  A. SAP Maintenance Planner    B. SAP Solution Manager    C. SAP Best Practices Explorer    D. SAP Activate Roadmap",
+    "question": "Which tool do you use to run the SAP Cloud Integration Automation Service for SAP S/4HANA Cloud?",
     "options": {
       "A": "SAP Maintenance Planner",
       "B": "SAP Solution Manager",
@@ -743,8 +743,35 @@
     ]
   },
   {
+    "question_number": 55,
+    "question": "Which of the following business areas belong to the sales line of business within the SAP Best Practices for SAP S/4HANA Cloud?",
+    "options": {
+      "A": "Order and contract management",
+      "B": "Invoice and payables management",
+      "C": "Subscription billing and revenue management",
+      "D": "Cost management and profitability analysis"
+    },
+    "correct_answers": [
+      "A"
+    ]
+  },
+  {
+    "question_number": 56,
+    "question": "How can a product be acquired after a material requirements planning run?",
+    "options": {
+      "A": "Using a service order",
+      "B": "Using a purchase requisition",
+      "C": "Using a planned order",
+      "D": "Using a consignment issue order"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
     "question_number": 57,
-    "question": "billing or pro forma billing?    A.  Item category    B. Product group  C. Order type  D. Payment term",
+    "question": "Which parameter determines whether a free of charge item is relevant for standard billing or pro forma billing?",
     "options": {
       "A": "Item category",
       "B": "Product group",
@@ -757,7 +784,7 @@
   },
   {
     "question_number": 58,
-    "question": "information do these analytical apps provide in the Order-to-Cash process? Note:  There are 2 correct answers to this question.  A. The current status of the customer's credit limit  B. The current status of sales volumes and profit margins  C. The current status of sales order, quotations, and back order    D. The current status of warehouse stock levels",
+    "question": "You use the SAP Fiori Analytical Apps for Sales (IBS) in SAP S/4HANA Cloud. What information do these analytical apps provide in the Order-to-Cash process?",
     "options": {
       "A": "The current status of the customer's credit limit",
       "B": "The current status of sales volumes and profit margins",
@@ -771,12 +798,13 @@
   },
   {
     "question_number": 59,
-    "question": "contribute to the automatic route determination for the delivery-relevant items in the  sales order?Note: There are 3 correct answers to this question.    A. The transportation group from the material master record    B.   The transportation zone from the business partner master record of the sold-to party.    C.   The shipping condition from the business partner master record of the sold-to party    D. The departure zone of the shipping point    E. The loading group from the material master record",
+    "question": "When you transact through the Sell from Stock (BD9) process, which system criteria contribute to the automatic route determination for the delivery-relevant items in the sales order?",
     "options": {
       "A": "The transportation group from the material master record",
       "B": "The transportation zone from the business partner master record of the sold-to party.",
       "C": "The shipping condition from the business partner master record of the sold-to party",
-      "D": "The departure zone of the shipping point    E. The loading group from the material master record"
+      "D": "The departure zone of the shipping point",    
+      "E": "The loading group from the material master record"
     },
     "correct_answers": [
       "A",
@@ -786,7 +814,7 @@
   },
   {
     "question_number": 60,
-    "question": "confirmation in SAP Central Business Configuration? Note: There are 2 correct answers  to this question.  A. Scoping  B. Configuration activities  C. Group currency  D. Fiscal year variant",
+    "question": "What activities are applied to the entire system and cannot be changed after confirmation in SAP Central Business Configuration?",
     "options": {
       "A": "Scoping",
       "B": "Configuration activities",
@@ -800,11 +828,12 @@
   },
   {
     "question_number": 61,
-    "question": "inquiry? Note: There are 2 correct answers to this question.    A.  Sales order    B. Quantity contract    C. Value contract     D. Sales quotation",
+    "question": "In SAP S/4HANA Cloud, which documents can be subsequently created after a sales inquiry?",
     "options": {
       "A": "Sales order",
       "B": "Quantity contract",
-      "C": "Value contract     D. Sales quotation"
+      "C": "Value contract",
+      "D": "Sales quotation"
     },
     "correct_answers": [
       "A",
@@ -813,7 +842,7 @@
   },
   {
     "question_number": 62,
-    "question": "Which SAP Fiori apps are used for credit memo processing?Note: There are 2 correct  answers to this question.    A. Manage Sales Order    B.  Manage Debit Memo Requests    C.  Manage Credit Memo Requests    D. Create Billing Documents",
+    "question": "You are working on a Credit Memo Processing (IEZ) process in SAP S/4HANA Cloud. Which SAP Fiori apps are used for credit memo processing?",
     "options": {
       "A": "Manage Sales Order",
       "B": "Manage Debit Memo Requests",
@@ -827,7 +856,7 @@
   },
   {
     "question_number": 63,
-    "question": "sales order entry?    A. Create a sales order with a dedicated order type.      B. Enter a specific condition in the pricing procedure of the sales order.    C. Assign a particular category to the sales order item.    D. Enter and appropriate item in the billing plan of the sales order",
+    "question": "You need to manage a customer down payment. Which action do you perform during sales order entry?",
     "options": {
       "A": "Create a sales order with a dedicated order type.",
       "B": "Enter a specific condition in the pricing procedure of the sales order.",
@@ -840,7 +869,7 @@
   },
   {
     "question_number": 64,
-    "question": "available?    A. SAP API Business Hub    B. SAP Extensibility Explorer    C. SAP Fiori Apps Reference Library    D. SAP BTP Cockpit",
+    "question": "Where can you find packaged integration content if there is no SAP Best Practices content available?",
     "options": {
       "A": "SAP API Business Hub",
       "B": "SAP Extensibility Explorer",
@@ -853,21 +882,23 @@
   },
   {
     "question_number": 65,
-    "question": "process? Note: There are 3 correct answers to this question.    A. Shipping Specialist    B. Sales Manager    C. Returns Clerk    D. Billing Clerk    E. Internal sales representative",
+    "question": "Which business roles are relevant for the SAP Fiori Analytical Apps for Sales (IBS) process?",
     "options": {
       "A": "Shipping Specialist",
       "B": "Sales Manager",
       "C": "Returns Clerk",
-      "D": "Billing Clerk    E. Internal sales representative"
+      "D": "Billing Clerk",
+      "E": "Internal sales representative"
     },
     "correct_answers": [
       "B",
-      "C"
+      "C",
+      "E"
     ]
   },
   {
     "question_number": 66,
-    "question": "requests? Note: There are 2 correct answers to this question.    A.  Sales order    B.  Billing document    C. Quantity contract    D. Delivery document",
+    "question": "Which of the following documents can be used as a reference to create debit memo requests?",
     "options": {
       "A": "Sales order",
       "B": "Billing document",
@@ -881,7 +912,7 @@
   },
   {
     "question_number": 67,
-    "question": "Standard workshops? Note: There are 2 correct answers to this question.    A.  Conduct end-user training on active scope items.    B. Highlight areas that require configuration or extensibility decision    C. Demonstrate SAP Best Practices in the Starter system.    D. Determine set up instructions for customer-driven integrations.",
+    "question": "How does an implementation consultant support customer experts during Fit-toStandard workshops?",
     "options": {
       "A": "Conduct end-user training on active scope items.",
       "B": "Highlight areas that require configuration or extensibility decision",
@@ -895,7 +926,7 @@
   },
   {
     "question_number": 68,
-    "question": "business role creates the debit memo request?    A.  Internal sales representative    B. Accounts payable accountant    C. Sales manager    D. Billing clerk",
+    "question": "You are working on a Debit Memo Processing (1F1) process in SAP S/4HANA Cloud.Which business role creates the debit memo request?",
     "options": {
       "A": "Internal sales representative",
       "B": "Accounts payable accountant",
@@ -908,12 +939,13 @@
   },
   {
     "question_number": 69,
-    "question": "Cloud?Note: There are 3 correct answers to this question.  A. Communication user  B. Communication arrangement     C. Communication system    D. Communication interface    E. Communication API",
+    "question": "What must you create when you build a communication scenario in SAP S/4HANA Cloud?",
     "options": {
       "A": "Communication user",
       "B": "Communication arrangement",
       "C": "Communication system",
-      "D": "Communication interface    E. Communication API"
+      "D": "Communication interface",    
+      "E": "Communication API"
     },
     "correct_answers": [
       "B"
@@ -921,7 +953,7 @@
   },
   {
     "question_number": 70,
-    "question": "sequence are the process steps executed?    A. Create sales inquiry Accept sales inquiry Create sale order B. Create customer Create sales quotation Create sales contract C. Create sales inquiry Accept sales inquiry Create sales contract D. Create customer Create sales quotation Create sales order",
+    "question": "You receive a request for information for a product offering from a customer. In which sequence are the process steps executed?",
     "options": {
       "A": "Create sales inquiry Accept sales inquiry Create sale order",
       "B": "Create customer Create sales quotation Create sales contract",
@@ -934,21 +966,23 @@
   },
   {
     "question_number": 71,
-    "question": "3 correct answers to this question.  A. Conduct risk-based assessments to determine the value of activating new processes. B. Serve as a central contact for SAP and manage interactions with the SAP Service Center. C. Ensure the resources necessary for the project\u2019s success are available D. Determine KPIs that will support a continuous improvement mindset E. Reduce the total cost of ownership for IT",
+    "question": "What are some responsibilities of a Customer Center of Expertise (CCOE)?",
     "options": {
       "A": "Conduct risk-based assessments to determine the value of activating new processes.",
       "B": "Serve as a central contact for SAP and manage interactions with the SAP Service Center.",
       "C": "Ensure the resources necessary for the project\u2019s success are available",
-      "D": "Determine KPIs that will support a continuous improvement mindset E. Reduce the total cost of ownership for IT"
+      "D": "Determine KPIs that will support a continuous improvement mindset", 
+      "E": "Reduce the total cost of ownership for IT"
     },
     "correct_answers": [
       "C",
-      "D"
+      "D",
+      "E"
     ]
   },
   {
     "question_number": 72,
-    "question": "scope item?Note: There are 2 correct answers to this question.  A. Order Fulfillment Specialist B. Sales Manager C. Analytics Specialist D. Order-to-Cash Process Manager",
+    "question": "Which business roles are relevant for the Predictive Analytics Model Training—Sales (2YJ) scope item?",
     "options": {
       "A": "Order Fulfillment Specialist",
       "B": "Sales Manager",
@@ -962,7 +996,7 @@
   },
   {
     "question_number": 73,
-    "question": "process tests on your behalf?Note: There are 2 correct answers to this question.  A. SAP-made changes to the standard test process B. Changes to the data input requirements (Custom data fields) C. Configuration changes that impact the process flow D. Changes to the SAP S/4HANA Cloud release (upgrade)",
+    "question": "Which of the following changes would prevent SAP from running automated business process tests on your behalf?",
     "options": {
       "A": "SAP-made changes to the standard test process",
       "B": "Changes to the data input requirements (Custom data fields)",
@@ -976,7 +1010,7 @@
   },
   {
     "question_number": 74,
-    "question": "and prediction confidence?  A. From 0 to 1000    B. From 0 to 100  C. From 0 to 10  D. From 0 to 1",
+    "question": "You evaluate a predictive model. What is the value range of predictive power andprediction confidence?",
     "options": {
       "A": "From 0 to 1000",
       "B": "From 0 to 100",
@@ -989,12 +1023,12 @@
   },
   {
     "question_number": 75,
-    "question": "information?    A. If the authorizations for a business user are missing or insufficient    B. If a business user accessed data in a custom field of an application    C. If a business user has restrictions when accessing data in an application    D. If a business user accessed a business partner\u2019s personal data",
+    "question": "In which scenario would you use Read Access Logging (RAL) to determine the information?",
     "options": {
       "A": "If the authorizations for a business user are missing or insufficient",
       "B": "If a business user accessed data in a custom field of an application",
       "C": "If a business user has restrictions when accessing data in an application",
-      "D": "If a business user accessed a business partner\u2019s personal data"
+      "D": "If a business user accessed a business partner's personal data"
     },
     "correct_answers": [
       "D"
@@ -1002,7 +1036,7 @@
   },
   {
     "question_number": 76,
-    "question": "answers to this question.    A.  Reject all items for a selected sales quotation.    B.  Search for sales quotations using a free test search    C. Execute the price determination for a selected sales quotation    D.  Execute the validity period for a selected sales quotation.  E. Process output for a selected sales quotation.",
+    "question": "What can you do with the Manage Sales Quotations app?",
     "options": {
       "A": "Reject all items for a selected sales quotation.",
       "B": "Search for sales quotations using a free test search",
@@ -1017,7 +1051,7 @@
   },
   {
     "question_number": 77,
-    "question": "answers to this question.  A. Extensibility using the Legacy System Migration Workbench (LSMW) B. Guidance and simulation of the migration process C. Mapping source values to SAP S/4HANA target values D. Combining the staging and file approaches into one migration project",
+    "question": "What are characteristics of the SAP S/4HANA Migration Cockpit?",
     "options": {
       "A": "Extensibility using the Legacy System Migration Workbench (LSMW)",
       "B": "Guidance and simulation of the migration process",
@@ -1031,7 +1065,7 @@
   },
   {
     "question_number": 78,
-    "question": "A. Deactivation of SAP administrative users B. Change logging through audit trails C. Application-level user management D. API management",
+    "question": "Which of the following security measures is the customer responsible for?",
     "options": {
       "A": "Deactivation of SAP administrative users",
       "B": "Change logging through audit trails",
@@ -1044,12 +1078,13 @@
   },
   {
     "question_number": 79,
-    "question": "are 3 correct answers to this question.  A. Regression B. Custom C. Post-upgrade D. Standard E. Integration",
+    "question": "What test process types are available in the Manage Your Test Processes app?",
     "options": {
       "A": "Regression",
       "B": "Custom",
       "C": "Post-upgrade",
-      "D": "Standard E. Integration"
+      "D": "Standard",
+      "E": "Integration"
     },
     "correct_answers": [
       "B",
@@ -1059,7 +1094,7 @@
   },
   {
     "question_number": 80,
-    "question": "S/4HANA Cloud. Which of the following split criteria always prevent the combination of  multiple sales orders into a single outbound delivery? Note: There are 2 correct answers  to this question.  A. Payment term B. Shipping point C. Ship-to-party D. Plant",
+    "question": "You are working on a Sales Order Processing with Collective Billing (BKZ) process in SAP S/4HANA Cloud. Which of the following split criteria always prevent the combination of multiple sales orders into a single outbound delivery?",
     "options": {
       "A": "Payment term",
       "B": "Shipping point",
