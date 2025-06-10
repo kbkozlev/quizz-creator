@@ -115,7 +115,8 @@
       "A": "Delete existing organizational entities",
       "B": "Add new organizational entities",
       "C": "Create additional product-specific configurations",
-      "D": "Edit existing product-specific configurations  E. Change the group ledger scenario"
+      "D": "Edit existing product-specific configurations",
+      "E": "Change the group ledger scenario"
     },
     "correct_answers": [
       "A",
