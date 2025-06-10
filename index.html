@@ -35,11 +35,21 @@
     let currentQuestionIndex = 0;
     let userAnswers = {};
 
-    async function loadQuestions() {
-      const response = await fetch('quiz_questions.json');
-      questions = await response.json();
-      showQuestion();
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+      }
+    return array;
     }
+
+    async function loadQuestions() {
+    const response = await fetch('quiz_questions.json');
+    questions = await response.json();
+    questions = shuffleArray(questions); // Shuffle questions
+    showQuestion();
+    }
+
 
     function showQuestion() {
       const quizDiv = document.getElementById('quiz');
@@ -111,6 +121,7 @@
     document.getElementById('restartBtn').addEventListener('click', () => {
       currentQuestionIndex = 0;
       userAnswers = {};
+      questions = shuffleArray(questions); // Reshuffle on restart
       document.getElementById('quiz').style.display = 'block';
       document.querySelector('.controls').style.display = 'flex';
       document.getElementById('result').innerText = '';
