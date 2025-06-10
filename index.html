@@ -4,217 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz App</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
-    .quiz-container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); position: relative; }
-    .question-header { font-weight: bold; margin-bottom: 10px; margin-top: 10px;}
-    .question-meta { position: absolute; top: 10px; right: 20px; font-size: 14px; color: #666; }
-    .options { margin: 10px 0; display: flex; flex-direction: column; }
-    .option { margin: 5px 0; }
-    .controls { display: flex; justify-content: space-between; margin-top: 20px; }
-    button { padding: 10px 15px; }
-    #result { text-align: center; font-size: 18px; font-weight: bold; margin-top: 20px; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="quiz-container">
+    <div id="quiz-selector"></div>
+    <div id="quiz-controls" class="top-buttons" style="display: none;">
+      <button id="restartQuizBtn" title="Restart Quiz">🔁</button>
+      <button id="selectNewQuizBtn" title="Select New Quiz">📂</button>
+    </div>
     <div id="quiz"></div>
-    <div class="controls">
+    <div class="controls" id="navigation">
       <button id="prevBtn">Previous</button>
       <button id="nextBtn">Next</button>
-      <button id="submitBtn" style="display:none">Complete</button>
+      <button id="submitBtn" style="display: none">Complete</button>
     </div>
     <div id="result"></div>
     <div style="text-align:center; margin-top:20px;">
       <button id="restartBtn" style="display:none">Restart Quiz</button>
+      <button id="selectAnotherQuizBtn" style="display:none">Select New Quiz</button>
     </div>
   </div>
-
-  <script>
-    let questions = [];
-    let currentQuestionIndex = 0;
-    let userAnswers = {};
-
-    function shuffleArray(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-      }
-    return array;
-    }
-
-    async function loadQuestions() {
-    const response = await fetch('quiz_questions.json');
-    questions = await response.json();
-    questions = shuffleArray(questions); // Shuffle questions
-    showQuestion();
-    }
-
-
-    function showQuestion() {
-      const quizDiv = document.getElementById('quiz');
-      const q = questions[currentQuestionIndex];
-      const numCorrect = q.correct_answers.length;
-      const inputType = numCorrect > 1 ? 'checkbox' : 'radio';
-
-      quizDiv.innerHTML = `
-        <div class="question-meta">Question ${currentQuestionIndex + 1} of ${questions.length}</div>
-        <div class="question-header">${q.question}</div>
-        <div><em>Select ${numCorrect} answer${numCorrect > 1 ? 's' : ''}:</em></div>
-        <div class="options">
-          ${Object.entries(q.options).map(([key, value]) => {
-            const checked = (userAnswers[q.question_number] || []).includes(key) ? 'checked' : '';
-            return `
-              <label class="option">
-                <input type="${inputType}" name="option" value="${key}" ${checked}/> ${key}. ${value}
-              </label>
-            `;
-          }).join('')}
-        </div>
-      `;
-
-      document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
-      document.getElementById('nextBtn').style.display = currentQuestionIndex < questions.length - 1 ? 'inline' : 'none';
-      document.getElementById('submitBtn').style.display = currentQuestionIndex === questions.length - 1 ? 'inline' : 'none';
-    }
-
-    function saveUserAnswer() {
-      const q = questions[currentQuestionIndex];
-      const selected = [...document.querySelectorAll('input[name="option"]:checked')].map(e => e.value);
-      userAnswers[q.question_number] = selected;
-    }
-
-function showSummary() {
-  // Remove existing summary if already present
-  const existing = document.querySelector('#quiz-summary');
-  if (existing) existing.remove();
-
-  // Create summary container
-  const summaryDiv = document.createElement('div');
-  summaryDiv.id = 'quiz-summary';
-  summaryDiv.style.marginTop = '30px';
-
-  questions.forEach((q, index) => {
-    const userSelection = userAnswers[q.question_number] || [];
-    const correctAnswers = q.correct_answers;
-
-    const questionBlock = document.createElement('div');
-    questionBlock.style.marginBottom = '20px';
-    questionBlock.style.border = '1px solid #ccc';
-    questionBlock.style.padding = '10px';
-    questionBlock.style.borderRadius = '8px';
-    questionBlock.style.backgroundColor = '#fff'; // Neutral background
-
-    const questionTitle = document.createElement('div');
-    questionTitle.innerHTML = `<strong>Q${index + 1}:</strong> ${q.question}`;
-    questionBlock.appendChild(questionTitle);
-
-    const optionsList = document.createElement('ul');
-    optionsList.style.listStyle = 'none';
-    optionsList.style.paddingLeft = '0';
-
-    Object.entries(q.options).forEach(([key, value]) => {
-      const li = document.createElement('li');
-      li.style.padding = '5px 10px';
-      li.style.borderRadius = '4px';
-      li.style.marginTop = '5px';
-      li.style.border = '1px solid #ccc';
-      li.style.fontWeight = 'normal';
-
-      const isCorrect = correctAnswers.includes(key);
-      const isSelected = userSelection.includes(key);
-
-      if (isCorrect && isSelected) {
-        // ✅ Correct and selected
-        li.style.backgroundColor = '#c8f7c5';
-        li.style.borderColor = '#2ecc71';
-        li.style.fontWeight = 'bold';
-      } else if (!isCorrect && isSelected) {
-        // ❌ Incorrect selection
-        li.style.backgroundColor = '#f7c5c5';
-        li.style.borderColor = '#e74c3c';
-        li.style.fontWeight = 'bold';
-      } else if (isCorrect && !isSelected) {
-        // ⚠️ Missed correct answer
-        li.style.backgroundColor = '#eeeeee';
-        li.style.borderColor = '#888';
-        li.style.fontStyle = 'italic';
-      }
-
-      li.innerHTML = `<strong>${key}.</strong> ${value}`;
-      optionsList.appendChild(li);
-    });
-
-    questionBlock.appendChild(optionsList);
-    summaryDiv.appendChild(questionBlock);
-  });
-
-  document.getElementById('result').after(summaryDiv);
-}
-
-
-    document.getElementById('prevBtn').addEventListener('click', () => {
-      saveUserAnswer();
-      if (currentQuestionIndex > 0) {
-        currentQuestionIndex--;
-        showQuestion();
-      }
-    });
-
-    document.getElementById('nextBtn').addEventListener('click', () => {
-      saveUserAnswer();
-      if (currentQuestionIndex < questions.length - 1) {
-        currentQuestionIndex++;
-        showQuestion();
-      }
-    });
-
-    document.getElementById('submitBtn').addEventListener('click', () => {
-  saveUserAnswer();
-  let score = 0;
-
-  questions.forEach(q => {
-    const selected = (userAnswers[q.question_number] || []).sort();
-    const correct = q.correct_answers.sort();
-    const allCorrect = selected.length === correct.length && selected.every((val, i) => val === correct[i]);
-    if (allCorrect) {
-      score++;
-    }
-  });
-
-  document.getElementById('quiz').style.display = 'none';
-  document.querySelector('.controls').style.display = 'none';
-
-  const percentage = Math.round((score / questions.length) * 100);
-  document.getElementById('result').innerText = `You scored ${score} out of ${questions.length} (${percentage}%)`;
-
-  showSummary(); // 👈 new function to show detailed review
-  document.getElementById('restartBtn').style.display = 'inline';
-});
-
-
-    document.getElementById('restartBtn').addEventListener('click', () => {
-  currentQuestionIndex = 0;
-  userAnswers = {};
-  questions = shuffleArray(questions); // Reshuffle on restart
-
-  // Clear quiz UI and restore visibility
-  document.getElementById('quiz').style.display = 'block';
-  document.querySelector('.controls').style.display = 'flex';
-  document.getElementById('result').innerText = '';
-  document.getElementById('restartBtn').style.display = 'none';
-
-  // Remove the summary section (if it exists)
-  const existingSummary = document.querySelector('#quiz-summary');
-  if (existingSummary) {
-    existingSummary.remove();
-  }
-
-  showQuestion();
-});
-
-
-    loadQuestions();
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>
