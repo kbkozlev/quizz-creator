@@ -1042,7 +1042,8 @@
       "A": "Reject all items for a selected sales quotation.",
       "B": "Search for sales quotations using a free test search",
       "C": "Execute the price determination for a selected sales quotation",
-      "D": "Execute the validity period for a selected sales quotation.  E. Process output for a selected sales quotation."
+      "D": "Execute the validity period for a selected sales quotation.",
+      "E": "Process output for a selected sales quotation."
     },
     "correct_answers": [
       "A",
