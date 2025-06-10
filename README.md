@@ -1,2 +1,2 @@
 # quizz-creator
-Create online quizzez
+Create online quizzes

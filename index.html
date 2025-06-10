@@ -84,6 +84,75 @@
       userAnswers[q.question_number] = selected;
     }
 
+function showSummary() {
+  // Remove existing summary if already present
+  const existing = document.querySelector('#quiz-summary');
+  if (existing) existing.remove();
+
+  // Create summary container
+  const summaryDiv = document.createElement('div');
+  summaryDiv.id = 'quiz-summary';
+  summaryDiv.style.marginTop = '30px';
+
+  questions.forEach((q, index) => {
+    const userSelection = userAnswers[q.question_number] || [];
+    const correctAnswers = q.correct_answers;
+
+    const questionBlock = document.createElement('div');
+    questionBlock.style.marginBottom = '20px';
+    questionBlock.style.border = '1px solid #ccc';
+    questionBlock.style.padding = '10px';
+    questionBlock.style.borderRadius = '8px';
+    questionBlock.style.backgroundColor = '#fff'; // Neutral background
+
+    const questionTitle = document.createElement('div');
+    questionTitle.innerHTML = `<strong>Q${index + 1}:</strong> ${q.question}`;
+    questionBlock.appendChild(questionTitle);
+
+    const optionsList = document.createElement('ul');
+    optionsList.style.listStyle = 'none';
+    optionsList.style.paddingLeft = '0';
+
+    Object.entries(q.options).forEach(([key, value]) => {
+      const li = document.createElement('li');
+      li.style.padding = '5px 10px';
+      li.style.borderRadius = '4px';
+      li.style.marginTop = '5px';
+      li.style.border = '1px solid #ccc';
+      li.style.fontWeight = 'normal';
+
+      const isCorrect = correctAnswers.includes(key);
+      const isSelected = userSelection.includes(key);
+
+      if (isCorrect && isSelected) {
+        // ✅ Correct and selected
+        li.style.backgroundColor = '#c8f7c5';
+        li.style.borderColor = '#2ecc71';
+        li.style.fontWeight = 'bold';
+      } else if (!isCorrect && isSelected) {
+        // ❌ Incorrect selection
+        li.style.backgroundColor = '#f7c5c5';
+        li.style.borderColor = '#e74c3c';
+        li.style.fontWeight = 'bold';
+      } else if (isCorrect && !isSelected) {
+        // ⚠️ Missed correct answer
+        li.style.backgroundColor = '#eeeeee';
+        li.style.borderColor = '#888';
+        li.style.fontStyle = 'italic';
+      }
+
+      li.innerHTML = `<strong>${key}.</strong> ${value}`;
+      optionsList.appendChild(li);
+    });
+
+    questionBlock.appendChild(optionsList);
+    summaryDiv.appendChild(questionBlock);
+  });
+
+  document.getElementById('result').after(summaryDiv);
+}
+
+
     document.getElementById('prevBtn').addEventListener('click', () => {
       saveUserAnswer();
       if (currentQuestionIndex > 0) {
@@ -101,33 +170,49 @@
     });
 
     document.getElementById('submitBtn').addEventListener('click', () => {
-      saveUserAnswer();
-      let score = 0;
-      questions.forEach(q => {
-        const selected = (userAnswers[q.question_number] || []).sort();
-        const correct = q.correct_answers.sort();
-        const allCorrect = selected.length === correct.length && selected.every((val, i) => val === correct[i]);
-        if (allCorrect) {
-          score++;
-        }
-      });
-      document.getElementById('quiz').style.display = 'none';
-      document.querySelector('.controls').style.display = 'none';
-      const percentage = Math.round((score / questions.length) * 100);
-      document.getElementById('result').innerText = `You scored ${score} out of ${questions.length} (${percentage}%)`;
-      document.getElementById('restartBtn').style.display = 'inline';
-    });
+  saveUserAnswer();
+  let score = 0;
+
+  questions.forEach(q => {
+    const selected = (userAnswers[q.question_number] || []).sort();
+    const correct = q.correct_answers.sort();
+    const allCorrect = selected.length === correct.length && selected.every((val, i) => val === correct[i]);
+    if (allCorrect) {
+      score++;
+    }
+  });
+
+  document.getElementById('quiz').style.display = 'none';
+  document.querySelector('.controls').style.display = 'none';
+
+  const percentage = Math.round((score / questions.length) * 100);
+  document.getElementById('result').innerText = `You scored ${score} out of ${questions.length} (${percentage}%)`;
+
+  showSummary(); // 👈 new function to show detailed review
+  document.getElementById('restartBtn').style.display = 'inline';
+});
+
 
     document.getElementById('restartBtn').addEventListener('click', () => {
-      currentQuestionIndex = 0;
-      userAnswers = {};
-      questions = shuffleArray(questions); // Reshuffle on restart
-      document.getElementById('quiz').style.display = 'block';
-      document.querySelector('.controls').style.display = 'flex';
-      document.getElementById('result').innerText = '';
-      document.getElementById('restartBtn').style.display = 'none';
-      showQuestion();
-    });
+  currentQuestionIndex = 0;
+  userAnswers = {};
+  questions = shuffleArray(questions); // Reshuffle on restart
+
+  // Clear quiz UI and restore visibility
+  document.getElementById('quiz').style.display = 'block';
+  document.querySelector('.controls').style.display = 'flex';
+  document.getElementById('result').innerText = '';
+  document.getElementById('restartBtn').style.display = 'none';
+
+  // Remove the summary section (if it exists)
+  const existingSummary = document.querySelector('#quiz-summary');
+  if (existingSummary) {
+    existingSummary.remove();
+  }
+
+  showQuestion();
+});
+
 
     loadQuestions();
   </script>
